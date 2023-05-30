@@ -123,16 +123,19 @@ p {
     text-align: center;
 } 
 
-  .gray {
+.gray {
     color: gray;
   }
-  .paragraph {
+.paragraph {
     color: gray;
     padding-top: 0px;
     word-spacing: 2px;
     line-height: 1.5;
   }
-  .left-align {
+.about h4 {
+    padding-left: 1rem;
+}
+.left-align {
     text-align: left;
 }
 .icons i{
