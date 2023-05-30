@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -96,4 +97,21 @@ p {
   img.hero {
     display: none;
   }
+  
+.gray{
+    color: gray;
+}
+.paragraph{
+    color: gray;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+.left-align{
+    text-align: left;
+}
+.icons i{
+    padding-right: 10px;
+    color: blue;
+    line-height: 2;
+}
 }
