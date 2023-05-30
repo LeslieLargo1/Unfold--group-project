@@ -85,6 +85,12 @@ button {
   font-weight: 700;
 }
 
+/*Services section styling*/
+.services p{
+    color: black;
+}
+
+
 /*Footer section styling*/
 footer {
   background-color: rgb(22, 34, 53);
@@ -133,6 +139,7 @@ p {
 @media only screen and (max-width: 360px) {
   /*Hero section mobile styling*/
 
+ 
   ul {
     display: none;
   }
@@ -143,6 +150,11 @@ p {
   }
   img.hero {
     display: none;
+  }
+  
+  .left {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
   /*About section mobile styling*/
 
