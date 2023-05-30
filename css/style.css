@@ -1,8 +1,14 @@
+@font-face {
+    font-family:Linelcons;
+    src: url(./fonts/Linelcons.woff);
+}
+
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  font-family: "Linelcons","Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
@@ -15,7 +21,10 @@ header {
   flex-direction: row-reverse;
   flex-wrap: wrap;
 }
+
+
 /*Hero section styling*/
+
 .home {
   background-color: #efeded;
 }
@@ -107,9 +116,9 @@ button {
 }
 .projects img {
   z-index: -1;
-  filter: sepia(89%) hue-rotate(228deg) saturate(401%);
+  filter: sepia(290%) hue-rotate(210deg) saturate(636%);
   overflow: hidden;
-  opacity: 0.9;
+  opacity: 0.7;
   position: absolute;
 }
 .projects button {
@@ -117,9 +126,62 @@ button {
   margin: 3%;
   border: none;
 }
+.projects button.download{
+    background-color: white;
+    color: #754ef9;
+}
 .projects button.hire {
   background-color: transparent;
-  border: 2px solid #efeded;
+  border: 2px solid white;
+}
+
+/*Pricing section styling */
+
+.plans span {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+  padding: 2px;
+}
+
+.pricing-plans p{
+    color: #8a90a2;
+}
+
+.plans h3 {
+  background-color: #754ef9;
+  color: white;
+}
+.plans span p{
+    color: #8a90a2;
+}
+span.color {
+  background-color: #754ef9;
+  width: 100%;
+}
+.price {
+  color: #754ef9;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.pricing-plans ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 28px;
+  padding: 0;
+}
+.pricing-plans li {
+  list-style: none;
+  padding: 13px;
+  font-weight: 500;
+}
+.pricing-plans button.white {
+  background-color: white;
+  color: #754ef9;
 }
 /*Footer section styling*/
 footer {
