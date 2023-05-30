@@ -16,11 +16,29 @@ header {
   flex-wrap: wrap;
 }
 /*Hero section styling*/
+.home {
+  background-color: #efeded;
+}
+
+.shape1 {
+  background-image: url(/images/banner/shape/shape-1.png);
+}
+.shape2 {
+  background-image: url(/images/banner/shape/shape-2.png);
+}
+.shape3 {
+  background-image: url(/images/banner/shape/shape-3.png);
+}
+.shape4 {
+  background-image: url(/images/banner/shape/shape-4a.png);
+}
+
 .left {
   padding-top: 6rem;
   padding-bottom: 6rem;
 }
 .introduction {
+  padding-left: 3%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -86,9 +104,6 @@ p {
 }
 
 @media only screen and (max-width: 360px) {
-  body {
-    padding: 3%;
-  }
   /*Hero section mobile styling*/
 
   ul {
