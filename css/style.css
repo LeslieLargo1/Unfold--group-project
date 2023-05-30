@@ -86,11 +86,41 @@ button {
 }
 
 /*Services section styling*/
-.services p{
-    color: black;
+
+/*Projects section styling*/
+
+.projects {
+  padding: 7%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 31% 0;
 }
 
-
+.projects h2 {
+  color: #efeded;
+}
+.projects p {
+  color: #efeded;
+}
+.projects img {
+  z-index: -1;
+  filter: sepia(89%) hue-rotate(228deg) saturate(401%);
+  overflow: hidden;
+  opacity: 0.9;
+  position: absolute;
+}
+.projects button {
+  width: 60%;
+  margin: 3%;
+  border: none;
+}
+.projects button.hire {
+  background-color: transparent;
+  border: 2px solid #efeded;
+}
 /*Footer section styling*/
 footer {
   background-color: rgb(22, 34, 53);
@@ -126,7 +156,7 @@ footer {
   color: rgb(249, 249, 250);
 }
 
-p {
+footer p {
   align-content: center;
   color: rgb(249, 249, 250);
   padding: 1rem;
@@ -139,7 +169,6 @@ p {
 @media only screen and (max-width: 360px) {
   /*Hero section mobile styling*/
 
- 
   ul {
     display: none;
   }
@@ -151,7 +180,7 @@ p {
   img.hero {
     display: none;
   }
-  
+
   .left {
     padding-top: 6rem;
     padding-bottom: 6rem;
