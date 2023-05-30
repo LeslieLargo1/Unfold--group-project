@@ -162,16 +162,20 @@ p {
         color: #754ef9;
         line-height: 2;
     }
+
+    /*My services section mobile styling*/
+
     .services {
         padding: 1rem;
         text-align: center;
     }
-    .services-icons div{
+
+    .services-icons div {
         margin-bottom: 0.8rem;
         border: 1px solid rgb(229, 226, 226);
         border-radius: 0.5rem;
     }
-    
+
     .services-icons i {
         padding-top: 1rem;
         color: #754ef9;
