@@ -31,6 +31,22 @@ footer {
   background-color: rgb(22, 34, 53);
   font-family: linecons;
 }
+  footer{
+    background-color: rgb(22,34,53);
+    font-family: linecons;
+    text-align:center;
+}
+
+
+p{
+    align-content: center;
+    color:rgb(249,249,250);
+    padding: 1rem;
+}
+ 
+.copyright{
+    background-color:rgb(29,42,64) ;
+}
 
 @media only screen and (max-width: 360px) {
   ul {
@@ -45,3 +61,4 @@ footer {
     display: none;
   }
 }
+
