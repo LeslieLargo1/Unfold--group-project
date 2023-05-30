@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  width: 100%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -10,11 +10,15 @@ header {
   align-content: space-between;
   justify-content: space-around;
   align-items: center;
-  padding: 0.4rem;
+  padding: 1.4rem;
   flex-direction: row-reverse;
   flex-wrap: wrap;
 }
 
+.left {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
 .introduction {
   display: flex;
   flex-direction: column;
@@ -23,24 +27,48 @@ header {
   justify-content: center;
   align-items: flex-start;
 }
+.introduction h2 {
+  color: #754ef9;
+}
+.introduction h6 {
+  color: #8a90a2;
+}
 .fa-bars {
   display: none;
 }
-
 .socials {
+  color: #8a90a2;
   display: flex;
   padding: 6px;
-  gap: 10px;
+  gap: 2px;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
 }
-
-
-  footer{
-    background-color: rgb(22,34,53);
-    font-family: linecons;
-    text-align:center;
+.socials span {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0.2px solid #8a90a2;
+}
+.socials i {
+  padding: 35%;
+}
+button {
+  background-color: #754ef9;
+  padding: 15px 30px;
+  border-radius: 25px;
+  color: white;
+  margin-bottom: 20%;
+  font-weight: 700;
+}
+footer {
+  background-color: rgb(22, 34, 53);
+  font-family: linecons;
+  text-align: center;
 }
 
 p {
@@ -54,6 +82,9 @@ p {
 }
 
 @media only screen and (max-width: 360px) {
+  body {
+    padding: 3%;
+  }
   ul {
     display: none;
   }
