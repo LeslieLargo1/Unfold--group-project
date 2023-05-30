@@ -1,8 +1,14 @@
+@font-face {
+    font-family:Linelcons;
+    src: url(./fonts/Linelcons.woff);
+}
+
+
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  font-family: "Linelcons","Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
@@ -15,7 +21,10 @@ header {
   flex-direction: row-reverse;
   flex-wrap: wrap;
 }
+
+
 /*Hero section styling*/
+
 .home {
   background-color: #efeded;
 }
@@ -86,11 +95,94 @@ button {
 }
 
 /*Services section styling*/
-.services p{
-    color: black;
+
+/*Projects section styling*/
+
+.projects {
+  padding: 7%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 31% 0;
 }
 
+.projects h2 {
+  color: #efeded;
+}
+.projects p {
+  color: #efeded;
+}
+.projects img {
+  z-index: -1;
+  filter: sepia(290%) hue-rotate(210deg) saturate(636%);
+  overflow: hidden;
+  opacity: 0.7;
+  position: absolute;
+}
+.projects button {
+  width: 60%;
+  margin: 3%;
+  border: none;
+}
+.projects button.download{
+    background-color: white;
+    color: #754ef9;
+}
+.projects button.hire {
+  background-color: transparent;
+  border: 2px solid white;
+}
 
+/*Pricing section styling */
+
+.plans span {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+  padding: 2px;
+}
+
+.pricing-plans p{
+    color: #8a90a2;
+}
+
+.plans h3 {
+  background-color: #754ef9;
+  color: white;
+}
+.plans span p{
+    color: #8a90a2;
+}
+span.color {
+  background-color: #754ef9;
+  width: 100%;
+}
+.price {
+  color: #754ef9;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.pricing-plans ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 28px;
+  padding: 0;
+}
+.pricing-plans li {
+  list-style: none;
+  padding: 13px;
+  font-weight: 500;
+}
+.pricing-plans button.white {
+  background-color: white;
+  color: #754ef9;
+}
 /*Footer section styling*/
 footer {
   background-color: rgb(22, 34, 53);
@@ -126,7 +218,7 @@ footer {
   color: rgb(249, 249, 250);
 }
 
-p {
+footer p {
   align-content: center;
   color: rgb(249, 249, 250);
   padding: 1rem;
@@ -139,7 +231,6 @@ p {
 @media only screen and (max-width: 360px) {
   /*Hero section mobile styling*/
 
- 
   ul {
     display: none;
   }
@@ -151,7 +242,7 @@ p {
   img.hero {
     display: none;
   }
-  
+
   .left {
     padding-top: 6rem;
     padding-bottom: 6rem;
@@ -162,19 +253,19 @@ p {
     text-align: center;
   }
 
-.gray {
+  .gray {
     color: gray;
   }
-.paragraph {
+  .paragraph {
     color: gray;
     padding-top: 0px;
     word-spacing: 2px;
     line-height: 1.5;
   }
-.about h4 {
+  .about h4 {
     padding-left: 1rem;
-}
-.left-align {
+  }
+  .left-align {
     text-align: left;
   }
   .icons i {
@@ -184,5 +275,5 @@ p {
   }
 }
 .services {
-    text-align: center;
+  text-align: center;
 }
