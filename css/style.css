@@ -97,12 +97,15 @@ p {
   img.hero {
     display: none;
   }
-  
+.about{
+    text-align: center;
+} 
 .gray{
     color: gray;
 }
 .paragraph{
     color: gray;
+    padding-top: 0px;
     word-spacing: 2px;
     line-height: 1.5;
 }
@@ -110,8 +113,8 @@ p {
     text-align: left;
 }
 .icons i{
-    padding-right: 10px;
-    color: blue;
+    padding: 0px 15px;
+    color: #754ef9;
     line-height: 2;
 }
 }
