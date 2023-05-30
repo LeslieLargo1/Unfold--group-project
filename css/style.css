@@ -6,6 +6,9 @@
         font-size: 1.5 rem;
         text-align: center;
 }
+.gray{
+    color: gray;
+}
 .paragraph{
     color: gray;
     word-spacing: 2px;
@@ -13,5 +16,10 @@
 }
 .left-align{
     text-align: left;
+}
+.icons i{
+    padding-right: 10px;
+    color: blue;
+    line-height: 2;
 }
 }
