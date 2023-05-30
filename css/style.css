@@ -87,6 +87,39 @@ button {
 
 /*Footer section styling*/
 
+<<<<<<< HEAD
+.foottext{
+    align-content: center;
+    color:rgb(249,249,250);
+    padding: 1rem;
+}
+ 
+.copyright{
+    background-color:rgb(29,42,64) ;
+    color:rgb(249,249,250);
+    padding:1rem;
+
+}
+
+.MediaIcons .fa-facebook{
+    color:rgb(249,249,250);
+
+}
+
+.MediaIcons .fa-twitter{
+    color:rgb(249,249,250);
+
+}
+
+.MediaIcons .fa-pinterest{
+    color:rgb(249,249,250);
+
+}
+
+.MediaIcons .fa-linkedin{
+    color:rgb(249,249,250);
+
+=======
 footer {
   background-color: rgb(22, 34, 53);
   font-family: linecons;
@@ -101,6 +134,7 @@ p {
 
 .copyright {
   background-color: rgb(29, 42, 64);
+>>>>>>> 6197549997139ffb8cba5042ccc3148588587f6b
 }
 
 @media only screen and (max-width: 360px) {
