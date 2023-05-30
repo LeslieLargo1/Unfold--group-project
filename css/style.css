@@ -1,17 +1,75 @@
-
-* {
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-footer{
-    background-color: rgb(22,34,53);
-    font-family: linecons;
-    text-align:center;
+header {
+  display: flex;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.4rem;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+/*Hero section styling*/
+.left {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+.introduction {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+}
+.introduction h2 {
+  color: #754ef9;
+}
+.introduction h6 {
+  color: #8a90a2;
+}
+.fa-bars {
+  display: none;
+}
+.socials {
+  color: #8a90a2;
+  display: flex;
+  padding: 6px;
+  gap: 2px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.socials span {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0.2px solid #8a90a2;
+}
+.socials i {
+  padding: 35%;
+}
+button {
+  background-color: #754ef9;
+  padding: 15px 30px;
+  border-radius: 25px;
+  color: white;
+  margin-bottom: 20%;
+  font-weight: 700;
 }
 
+/*Footer section styling*/
 
+<<<<<<< HEAD
 .foottext{
     align-content: center;
     color:rgb(249,249,250);
@@ -43,8 +101,62 @@ footer{
 .MediaIcons .fa-linkedin{
     color:rgb(249,249,250);
 
+=======
+footer {
+  background-color: rgb(22, 34, 53);
+  font-family: linecons;
+  text-align: center;
+}
+
+p {
+  align-content: center;
+  color: rgb(249, 249, 250);
+  padding: 1rem;
+}
+
+.copyright {
+  background-color: rgb(29, 42, 64);
+>>>>>>> 6197549997139ffb8cba5042ccc3148588587f6b
 }
 
 @media only screen and (max-width: 360px) {
-}
+  body {
+    padding: 3%;
+  }
+  /*Hero section mobile styling*/
 
+  ul {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+    margin-left: auto;
+    padding: 4px;
+  }
+  img.hero {
+    display: none;
+  }
+ /*About section mobile styling*/
+  
+.about{
+    text-align: center;
+} 
+
+  .gray {
+    color: gray;
+  }
+  .paragraph {
+    color: gray;
+    padding-top: 0px;
+    word-spacing: 2px;
+    line-height: 1.5;
+  }
+  .left-align {
+    text-align: left;
+}
+.icons i{
+    padding: 0px 15px;
+    color: #754ef9;
+    line-height: 2;
+  }
+}
