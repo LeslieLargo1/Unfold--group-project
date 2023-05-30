@@ -12,7 +12,7 @@ footer{
 }
 
 
-p{
+.foottext{
     align-content: center;
     color:rgb(249,249,250);
     padding: 1rem;
@@ -20,9 +20,30 @@ p{
  
 .copyright{
     background-color:rgb(29,42,64) ;
+    color:rgb(249,249,250);
+    padding:1rem;
+
 }
 
+.MediaIcons .fa-facebook{
+    color:rgb(249,249,250);
 
+}
+
+.MediaIcons .fa-twitter{
+    color:rgb(249,249,250);
+
+}
+
+.MediaIcons .fa-pinterest{
+    color:rgb(249,249,250);
+
+}
+
+.MediaIcons .fa-linkedin{
+    color:rgb(249,249,250);
+
+}
 
 @media only screen and (max-width: 360px) {
 }
