@@ -1,9 +1,17 @@
 @media only screen and (max-width: 360px){
     html{
         margin: 0;
-        padding: 0;
+        padding: 10px;
         box-sizing: border-box;
-        font-size: 1 rem;
+        font-size: 1.5 rem;
         text-align: center;
+}
+.paragraph{
+    color: gray;
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+.left-align{
+    text-align: left;
 }
 }
