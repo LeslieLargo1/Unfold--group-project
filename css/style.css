@@ -191,19 +191,19 @@ footer p {
     text-align: center;
   }
 
-.gray {
+  .gray {
     color: gray;
   }
-.paragraph {
+  .paragraph {
     color: gray;
     padding-top: 0px;
     word-spacing: 2px;
     line-height: 1.5;
   }
-.about h4 {
+  .about h4 {
     padding-left: 1rem;
-}
-.left-align {
+  }
+  .left-align {
     text-align: left;
   }
   .icons i {
@@ -213,5 +213,5 @@ footer p {
   }
 }
 .services {
-    text-align: center;
+  text-align: center;
 }
