@@ -85,12 +85,45 @@ button {
   font-weight: 700;
 }
 
-/*Footer section styling*/
+/*Services section styling*/
+.services p{
+    color: black;
+}
 
+
+/*Footer section styling*/
 footer {
   background-color: rgb(22, 34, 53);
   font-family: linecons;
   text-align: center;
+}
+
+.foottext {
+  align-content: center;
+  color: rgb(249, 249, 250);
+  padding: 1rem;
+}
+
+.copyright {
+  background-color: rgb(29, 42, 64);
+  color: rgb(249, 249, 250);
+  padding: 1rem;
+}
+
+.MediaIcons .fa-facebook {
+  color: rgb(249, 249, 250);
+}
+
+.MediaIcons .fa-twitter {
+  color: rgb(249, 249, 250);
+}
+
+.MediaIcons .fa-pinterest {
+  color: rgb(249, 249, 250);
+}
+
+.MediaIcons .fa-linkedin {
+  color: rgb(249, 249, 250);
 }
 
 p {
@@ -106,6 +139,7 @@ p {
 @media only screen and (max-width: 360px) {
   /*Hero section mobile styling*/
 
+ 
   ul {
     display: none;
   }
@@ -117,11 +151,16 @@ p {
   img.hero {
     display: none;
   }
- /*About section mobile styling*/
   
-.about{
+  .left {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  /*About section mobile styling*/
+
+  .about {
     text-align: center;
-} 
+  }
 
 .gray {
     color: gray;
@@ -137,8 +176,8 @@ p {
 }
 .left-align {
     text-align: left;
-}
-.icons i{
+  }
+  .icons i {
     padding: 0px 15px;
     color: #754ef9;
     line-height: 2;
