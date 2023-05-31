@@ -12,32 +12,35 @@ body {
 }
 
 header {
-  display: flex;
-  align-content: space-between;
-  justify-content: space-around;
-  align-items: center;
-  padding: 1.4rem;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
+    display: flex;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.4rem;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
 }
 
 /*Hero section styling*/
 
 .home {
-  background-color: #efeded;
+    background-color: #efeded;
 }
 
 .shape1 {
-  background-image: url(/images/banner/shape/shape-1.png);
+    background-image: url(/images/banner/shape/shape-1.png);
 }
+
 .shape2 {
-  background-image: url(/images/banner/shape/shape-2.png);
+    background-image: url(/images/banner/shape/shape-2.png);
 }
+
 .shape3 {
-  background-image: url(/images/banner/shape/shape-3.png);
+    background-image: url(/images/banner/shape/shape-3.png);
 }
+
 .shape4 {
-  background-image: url(/images/banner/shape/shape-4a.png);
+    background-image: url(/images/banner/shape/shape-4a.png);
 }
 
 .introduction {
@@ -49,8 +52,9 @@ header {
   align-items: flex-start;
   font-weight: 700;
 }
+
 .introduction h2 {
-  color: #754ef9;
+    color: #754ef9;
 }
 .introduction h1 {
   font-size: 2rem;
@@ -58,9 +62,11 @@ header {
 .introduction h5 {
   color: #8a90a2;
 }
+
 .fa-bars {
-  display: none;
+    display: none;
 }
+
 .socials {
   color: #8a90a2;
   display: flex;
@@ -71,18 +77,21 @@ header {
   justify-content: flex-start;
   align-items: center;
 }
+
 .socials span {
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: 0.2px solid #8a90a2;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0.2px solid #8a90a2;
 }
+
 .socials i {
-  padding: 35%;
+    padding: 35%;
 }
+
 button {
   background-color: #754ef9;
   padding: 15px 30px;
@@ -195,9 +204,9 @@ span.color {
 }
 /*Footer section styling*/
 footer {
-  background-color: rgb(22, 34, 53);
-  font-family: linecons;
-  text-align: center;
+    background-color: rgb(22, 34, 53);
+    font-family: linecons;
+    text-align: center;
 }
 
 .foottext {
@@ -235,7 +244,7 @@ footer p {
 }
 
 .copyright {
-  background-color: rgb(29, 42, 64);
+    background-color: rgb(29, 42, 64);
 }
 
 @media only screen and (max-width: 360px) {
