@@ -1,9 +1,14 @@
+@font-face {
+  font-family: Linelcons;
+  src: url(./fonts/Linelcons.woff);
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Linelcons", "Lucida Sans", "Lucida Sans Regular",
+    "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -17,6 +22,7 @@ header {
 }
 
 /*Hero section styling*/
+
 .home {
     background-color: #efeded;
 }
@@ -37,27 +43,24 @@ header {
     background-image: url(/images/banner/shape/shape-4a.png);
 }
 
-.left {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
-}
-
 .introduction {
-    padding-left: 3%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: center;
-    align-items: flex-start;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  font-weight: 700;
 }
 
 .introduction h2 {
     color: #754ef9;
 }
-
-.introduction h6 {
-    color: #8a90a2;
+.introduction h1 {
+  font-size: 2rem;
+}
+.introduction h5 {
+  color: #8a90a2;
 }
 
 .fa-bars {
@@ -65,13 +68,14 @@ header {
 }
 
 .socials {
-    color: #8a90a2;
-    display: flex;
-    padding: 6px;
-    gap: 2px;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
+  color: #8a90a2;
+  display: flex;
+  margin-top: 13%;
+  padding: 16px;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .socials span {
@@ -89,26 +93,154 @@ header {
 }
 
 button {
-    background-color: #754ef9;
-    padding: 15px 30px;
-    border-radius: 25px;
-    color: white;
-    margin-bottom: 20%;
-    font-weight: 700;
+  background-color: #754ef9;
+  padding: 15px 30px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  margin-bottom: 2%;
+  font-weight: 700;
+  box-shadow: 2px 2px 4px #941bb240;
 }
 
-/*Footer section styling*/
+/*Services section styling*/
 
+/*Projects section styling*/
+
+.projects {
+  padding: 7%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: 31% 0;
+}
+
+.projects h2 {
+  color: #efeded;
+}
+.projects p {
+  color: #efeded;
+}
+.projects img {
+  z-index: -1;
+  filter: sepia(290%) hue-rotate(210deg) saturate(636%);
+  overflow: hidden;
+  opacity: 0.7;
+  position: absolute;
+}
+.projects button {
+  width: 60%;
+  margin: 3%;
+  border: none;
+}
+.projects button.download {
+  background-color: white;
+  color: #754ef9;
+}
+.projects button.hire {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+/*Pricing section styling */
+
+.pricing-plans {
+  background-color: #fbfbfb;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.plans span {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+  padding: 2px;
+}
+
+.pricing-plans p {
+  color: #8a90a2;
+}
+
+.plans h3 {
+  background-color: #754ef9;
+  color: white;
+}
+.plans span p {
+  color: #8a90a2;
+}
+span.color {
+  background-color: #754ef9;
+  width: 100%;
+}
+.price {
+  color: #754ef9;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.pricing-plans ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 28px;
+  padding: 0;
+}
+.pricing-plans li {
+  list-style: none;
+  padding: 13px;
+  font-weight: 500;
+}
+.pricing-plans button {
+  border: 2px solid #754ef9;
+  box-shadow: 2px 2px 4px #941bb240;
+}
+.pricing-plans button.white {
+  background-color: white;
+  color: #754ef9;
+}
+/*Footer section styling*/
 footer {
     background-color: rgb(22, 34, 53);
     font-family: linecons;
     text-align: center;
 }
 
-p {
-    align-content: center;
-    color: rgb(249, 249, 250);
-    padding: 1rem;
+.foottext {
+  align-content: center;
+  color: rgb(249, 249, 250);
+  padding: 1rem;
+}
+
+.copyright {
+  background-color: rgb(29, 42, 64);
+  color: rgb(249, 249, 250);
+  padding: 1rem;
+}
+
+.MediaIcons .fa-facebook {
+  color: rgb(249, 249, 250);
+}
+
+.MediaIcons .fa-twitter {
+  color: rgb(249, 249, 250);
+}
+
+.MediaIcons .fa-pinterest {
+  color: rgb(249, 249, 250);
+}
+
+.MediaIcons .fa-linkedin {
+  color: rgb(249, 249, 250);
+}
+
+footer p {
+  align-content: center;
+  color: rgb(249, 249, 250);
+  padding: 1rem;
 }
 
 .copyright {
@@ -116,70 +248,50 @@ p {
 }
 
 @media only screen and (max-width: 360px) {
-    /*Hero section mobile styling*/
+  /*Hero section mobile styling*/
+  .left {
+    padding-top: 7rem;
+    padding-bottom: 2rem;
+  }
+  ul {
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+    margin-left: auto;
+    padding: 4px;
+  }
+  img.hero {
+    display: none;
+  }
 
-    ul {
-        display: none;
-    }
+  /*About section mobile styling*/
 
-    .fa-bars {
-        display: block;
-        margin-left: auto;
-        padding: 4px;
-    }
+  .about {
+    text-align: center;
+  }
 
-    img.hero {
-        display: none;
-    }
-
-    /*About section mobile styling*/
-
-    .about {
-        text-align: center;
-    }
-
-    .gray {
-        color: gray;
-    }
-
-    .paragraph {
-        color: gray;
-        padding-top: 0px;
-        word-spacing: 2px;
-        line-height: 1.5;
-    }
-
-    .about h4 {
-        padding-left: 1rem;
-    }
-
-    .left-align {
-        text-align: left;
-    }
-
-    .about-icons i {
-        padding: 0px 15px;
-        color: #754ef9;
-        line-height: 2;
-    }
-
-    /*My services section mobile styling*/
-
-    .services {
-        padding: 1rem;
-        text-align: center;
-    }
-
-    .services-icons div {
-        margin-bottom: 0.8rem;
-        border: 1px solid rgb(229, 226, 226);
-        border-radius: 0.5rem;
-    }
-
-    .services-icons i {
-        padding-top: 1rem;
-        color: #754ef9;
-    }
-
-    /*Recent works section mobile styling*/
+  .gray {
+    color: gray;
+  }
+  .paragraph {
+    color: gray;
+    padding-top: 0px;
+    word-spacing: 2px;
+    line-height: 1.5;
+  }
+  .about h4 {
+    padding-left: 1rem;
+  }
+  .left-align {
+    text-align: left;
+  }
+  .icons i {
+    padding: 0px 15px;
+    color: #754ef9;
+    line-height: 2;
+  }
+}
+.services {
+  text-align: center;
 }
