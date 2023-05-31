@@ -12,35 +12,35 @@ body {
 }
 
 header {
-    display: flex;
-    align-content: space-between;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1.4rem;
-    flex-direction: row-reverse;
-    flex-wrap: wrap;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.4rem;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
 }
 
 /*Hero section styling*/
 
 .home {
-    background-color: #efeded;
+  background-color: #efeded;
 }
 
 .shape1 {
-    background-image: url(/images/banner/shape/shape-1.png);
+  background-image: url(/images/banner/shape/shape-1.png);
 }
 
 .shape2 {
-    background-image: url(/images/banner/shape/shape-2.png);
+  background-image: url(/images/banner/shape/shape-2.png);
 }
 
 .shape3 {
-    background-image: url(/images/banner/shape/shape-3.png);
+  background-image: url(/images/banner/shape/shape-3.png);
 }
 
 .shape4 {
-    background-image: url(/images/banner/shape/shape-4a.png);
+  background-image: url(/images/banner/shape/shape-4a.png);
 }
 
 .introduction {
@@ -54,7 +54,7 @@ header {
 }
 
 .introduction h2 {
-    color: #754ef9;
+  color: #754ef9;
 }
 .introduction h1 {
   font-size: 2rem;
@@ -64,7 +64,7 @@ header {
 }
 
 .fa-bars {
-    display: none;
+  display: none;
 }
 
 .socials {
@@ -79,17 +79,17 @@ header {
 }
 
 .socials span {
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 0.2px solid #8a90a2;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 0.2px solid #8a90a2;
 }
 
 .socials i {
-    padding: 35%;
+  padding: 35%;
 }
 
 button {
@@ -204,9 +204,9 @@ span.color {
 }
 /*Footer section styling*/
 footer {
-    background-color: rgb(22, 34, 53);
-    font-family: linecons;
-    text-align: center;
+  background-color: rgb(22, 34, 53);
+  font-family: linecons;
+  text-align: center;
 }
 
 .foottext {
@@ -244,7 +244,7 @@ footer p {
 }
 
 .copyright {
-    background-color: rgb(29, 42, 64);
+  background-color: rgb(29, 42, 64);
 }
 
 @media only screen and (max-width: 360px) {
@@ -271,27 +271,81 @@ footer p {
     text-align: center;
   }
 
+  img.hero {
+    display: none;
+  }
+
+  .about {
+    text-align: center;
+  }
+
   .gray {
     color: gray;
   }
+
   .paragraph {
     color: gray;
     padding-top: 0px;
     word-spacing: 2px;
     line-height: 1.5;
   }
+
   .about h4 {
     padding-left: 1rem;
   }
+
   .left-align {
     text-align: left;
   }
-  .icons i {
+
+  .about-icons i {
     padding: 0px 15px;
     color: #754ef9;
     line-height: 2;
   }
-}
-.services {
-  text-align: center;
+
+  /*My services section mobile styling*/
+
+  .services {
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .services-icons div {
+    margin-bottom: 0.8rem;
+    border: 1px solid rgb(229, 226, 226);
+    border-radius: 0.5rem;
+  }
+
+  .services-icons i {
+    padding-top: 1rem;
+    color: #754ef9;
+  }
+
+  /*Recent works section mobile styling*/
+  .recentworks {
+    padding: 1rem;
+  }
+
+  .recentworks h2 {
+    padding-left: 1rem;
+  }
+
+  .recentworks-images {
+    display: flex;
+    flex-direction: column;
+  }
+  .recentworks-images img {
+    margin-bottom: 1rem;
+  }
+  .recentworks-button {
+    border: 1px solid #754ef9;
+    background-color: #754ef9;
+    color: white;
+    border-radius: 2.5rem;
+    box-shadow: 0 3px 5px 3px #cfc4f6;
+    padding: 1.3rem 0rem;
+    margin: 3rem 3.5rem;
+    text-align: center;
+  }
 }
