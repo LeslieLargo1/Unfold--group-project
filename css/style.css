@@ -182,4 +182,29 @@ p {
     }
 
     /*Recent works section mobile styling*/
+    .recentworks {
+        padding: 1rem;
+    }
+
+    .recentworks h2 {
+        padding-left: 1rem;
+    }
+
+    .recentworks-images {
+        display: flex;
+        flex-direction: column;
+    }
+    .recentworks-images img{
+        margin-bottom: 1rem;
+    }
+    .recentworks-button{
+        border: 1px solid #754ef9;
+        background-color: #754ef9;
+        color: white;
+        border-radius: 2.5rem;
+        box-shadow: 0 3px 5px 3px #cfc4f6;
+        padding: 1.3rem 0rem;
+        margin: 3rem 3.5rem;
+        text-align: center;
+    }
 }
