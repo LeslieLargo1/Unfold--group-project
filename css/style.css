@@ -35,47 +35,26 @@ header ul {
 
 /*Hero section styling*/
 
-.home {
-  background-color: #efeded;
-}
-
-.shape1 {
-  background-image: url(/images/banner/shape/shape-1.png);
-}
-
-.shape2 {
-  background-image: url(/images/banner/shape/shape-2.png);
-}
-
-.shape3 {
-  background-image: url(/images/banner/shape/shape-3.png);
-}
-
-.shape4 {
-  background-image: url(/images/banner/shape/shape-4a.png);
-}
-
-
 section.home {
-background-image: url(/images/banner/background.png);
-background-repeat: no-repeat;
-background-size: cover;
-z-index: -1;
-display: flex;
-flex-direction: row;
-padding: 5%;
-
+  background-image: url(/images/banner/background.png);
+  background-color: #efeded;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
 }
 
-.left{
+.left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin: 0 auto;
-  padding:2%;
+  padding: 2%;
   padding-left: 15%;
 }
-.right{
+.right {
   display: flex;
   flex-direction: column;
   max-width: 450px;
@@ -119,7 +98,7 @@ padding: 5%;
 }
 
 .socials span {
-  display:flex ;
+  display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
@@ -144,43 +123,73 @@ button {
   box-shadow: 2px 2px 4px #941bb240;
 }
 
-
 /*Services section styling*/
 
 /*Projects section styling*/
-
 .projects {
-  padding: 7%;
   display: flex;
+  position: relative;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  align-content: center;
-  margin: 31% 0;
+  padding: 5%;
+  margin: 2%;
+}
+
+.projects .content {
+  color: white;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  z-index: 2;
+}
+
+.projects .content h2,
+.projects .content p {
+  text-align: center;
+  margin: 0;
+}
+
+.projects .content .buttons {
+  display: flex;
+  gap: 10px;
 }
 
 .projects h2 {
   color: #efeded;
 }
+
 .projects p {
   color: #efeded;
 }
+
 .projects img {
-  z-index: -1;
   filter: sepia(290%) hue-rotate(210deg) saturate(636%);
-  overflow: hidden;
-  opacity: 0.7;
   position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.7;
 }
+
 .projects button {
-  width: 60%;
-  margin: 3%;
+  padding: 15px 50px;
   border: none;
 }
+
 .projects button.download {
   background-color: white;
   color: #754ef9;
 }
+
 .projects button.hire {
   background-color: transparent;
   border: 2px solid white;
@@ -387,6 +396,15 @@ footer p {
   .services-icons i {
     padding-top: 1rem;
     color: #754ef9;
+  }
+  /*Projects works section mobile styling*/
+
+  .projects .buttons {
+    flex-direction: column;
+  }
+  .buttons button{
+    padding: 15px 30px;
+
   }
 
   /*Recent works section mobile styling*/
