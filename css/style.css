@@ -148,12 +148,21 @@ section.about {
   width: 70%;
   margin: 0 auto;
 }
-
-.centered{
+ .paragraph {
+    color: gray;
+    padding: 0px 1rem 0 1rem;
+    word-spacing: 2px;
+    line-height: 1.5;
+  }
+.centered {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.bold{
+  font-weight: 700;
 }
 
 section.about .left-align {
@@ -172,18 +181,17 @@ section.about .columns {
   width: 50%;
 }
 
-.about-progressBars progress{
+.about-progressBars progress {
   width: 100%;
 }
 
-.about-progressBars p{
+.about-progressBars p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
-
 
 .icons i {
   color: #754ef9;
@@ -207,8 +215,36 @@ section.about .columns {
 
 /*Services section styling*/
 
-/*Recent works section styling*/
+section.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 3%;
+}
 
+.services-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.services-icons .item {
+  border: 1px solid #8a90a2;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+.services-icons i {
+  color: #754ef9;
+  font-size: 2.5rem;
+}
+.services-icons p.paragraph{
+  color: #8a90a2;
+  background-color: #fbfbfb;
+}
+
+/*Recent works section styling*/
 
 /*Projects section styling*/
 .projects {
@@ -566,37 +602,39 @@ footer p {
   }
   /*About section mobile styling*/
 
-  .about {
-    text-align: center;
+  selection.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-
-  .gray {
-    color: gray;
-  }
-
-  .paragraph {
-    color: gray;
-    padding: 0px 1rem 0 1rem;
-    word-spacing: 2px;
-    line-height: 1.5;
-  }
-
+section.about .columns{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+section.about .left-align {
+  width: 100%;
+}
   .about h4 {
     padding-left: 1rem;
   }
 
-  .left-align {
-    text-align: left;
-  }
-
+div.icons{
+  width: 100%;
+  flex-direction: column;
+}
+.left-side-icons, .right-side-icons{
+  width: 100%;
+}
   .icons i {
     padding: 0px 15px;
     color: #754ef9;
     line-height: 2;
   }
   .about-progressBars {
-    margin-top: 2rem;
-  }
+    width: 100%;
+    }
 
   .about-progressBars p {
     padding: 0;
@@ -607,36 +645,14 @@ footer p {
   }
 
   .about-progressBars progress {
-    width: 90%;
-    background-color: rgb(231, 228, 228);
-    border-radius: 1rem;
-    height: 0.4rem;
-  }
-  .right-float {
-    float: right;
-    padding-right: 1rem;
-  }
-  .left-float {
-    float: left;
-    padding-left: 1rem;
+    width: 100%;
   }
   /*My services section mobile styling*/
 
-  .services {
-    padding: 1rem;
-    text-align: center;
+  .services-icons {
+    grid-template-columns: 1fr;
   }
-
-  .services-icons div {
-    margin-bottom: 0.8rem;
-    border: 1px solid rgb(229, 226, 226);
-    border-radius: 0.5rem;
-  }
-
-  .services-icons i {
-    padding-top: 1rem;
-    color: #754ef9;
-  }
+ 
   /*Projects works section mobile styling*/
 
   .projects .buttons {
