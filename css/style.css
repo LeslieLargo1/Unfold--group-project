@@ -82,10 +82,12 @@ section.home {
   color: #754ef9;
   font-weight: 700;
 }
+
 .introduction h1 {
   font-size: 3rem;
   font-weight: 700;
 }
+
 .introduction h5 {
   color: #8a90a2;
 }
@@ -205,6 +207,9 @@ section.about .columns {
 
 /*Services section styling*/
 
+/*Recent works section styling*/
+
+
 /*Projects section styling*/
 .projects {
   display: flex;
@@ -300,6 +305,7 @@ section.pricing-plans {
   flex-direction: row;
   flex: 1;
 }
+
 .plans span {
   display: flex;
   flex-direction: column;
@@ -318,9 +324,11 @@ section.pricing-plans {
   background-color: #754ef9;
   color: white;
 }
+
 .plans span p {
   color: #8a90a2;
 }
+
 span.color {
   background-color: #754ef9;
   width: 100%;
@@ -328,6 +336,7 @@ span.color {
   padding: 0;
   border-radius: 15px 15px 0 0;
 }
+
 .price {
   color: #754ef9;
   font-size: 1.5rem;
@@ -344,15 +353,18 @@ hr {
   margin: 28px;
   padding: 0;
 }
+
 .pricing-plans li {
   list-style: none;
   padding: 13px;
   font-weight: 500;
 }
+
 .pricing-plans button {
   border: 2px solid #754ef9;
   box-shadow: 2px 2px 4px #941bb240;
 }
+
 .pricing-plans button.white {
   background-color: white;
   color: #754ef9;
@@ -528,6 +540,7 @@ footer p {
     padding-top: 7rem;
     padding-bottom: 2rem;
   }
+
   ul {
     display: none;
   }
@@ -638,24 +651,22 @@ footer p {
     padding: 1rem;
   }
 
-  .recentworks h2 {
-    padding-left: 1rem;
-  }
-
   .recentworks-images {
     display: flex;
     flex-direction: column;
   }
+
   .recentworks-images img {
     margin-bottom: 1rem;
   }
+
   .recentworks-button {
     border: 1px solid #754ef9;
     background-color: #754ef9;
     color: white;
     border-radius: 2.5rem;
     box-shadow: 0 3px 5px 3px #cfc4f6;
-    padding: 1.3rem 0rem;
+    padding: 1rem 0rem;
     margin: 3rem 3.5rem;
     text-align: center;
   }
