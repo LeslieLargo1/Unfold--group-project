@@ -156,14 +156,18 @@ section.about {
   word-spacing: 2px;
   line-height: 1.5;
 }
-.centered {
+
+ .paragraph {
+    color: gray;
+    padding: 0px 1rem 0 1rem;
+    word-spacing: 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.bold {
+.bold{
   font-weight: 700;
 }
 
@@ -259,11 +263,27 @@ section.recentworks {
   align-content: center;
   padding: 3%;
 }
-.recentworks {
+.services-icons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
 }
+.services-icons .item {
+  border: 1px solid #8a90a2;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+}
+.services-icons i {
+  color: #754ef9;
+  font-size: 2.5rem;
+}
+.services-icons p.paragraph{
+  color: #8a90a2;
+  background-color: #fbfbfb;
+}
+
+/*Recent works section styling*/
 
 .recentworks-images img {
   width: 30%;
@@ -663,6 +683,20 @@ footer p {
   section.about .left-align {
     width: 100%;
   }
+  selection.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+section.about .columns{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+section.about .left-align {
+  width: 100%;
+}
   .about h4 {
     padding-left: 1rem;
   }
@@ -675,6 +709,13 @@ footer p {
   .right-side-icons {
     width: 100%;
   }
+div.icons{
+  width: 100%;
+  flex-direction: column;
+}
+.left-side-icons, .right-side-icons{
+  width: 100%;
+}
   .icons i {
     padding: 0px 15px;
     color: #754ef9;
@@ -704,6 +745,10 @@ footer p {
     grid-template-columns: 1fr;
   }
 
+  .services-icons {
+    grid-template-columns: 1fr;
+  }
+ 
   /*Projects works section mobile styling*/
 
   .projects .buttons {
