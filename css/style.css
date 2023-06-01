@@ -94,7 +94,6 @@ section.home {
   display: none;
 }
 
-
 .home hr {
   position: absolute;
   background-color: #754ef9;
@@ -289,6 +288,82 @@ hr {
   background-color: white;
   color: #754ef9;
 }
+
+/*Contact section styling */
+
+section.contact{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1%;
+} 
+
+section h2{
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.fixed{
+  display: flex;
+  flex-direction: row;
+}
+
+.fixed span{
+  display: flex;
+  flex-direction: column;
+  padding: 3%;
+}
+.fixed span p{
+  font-weight: 800
+}
+.fixed span span{
+  font-size: 1rem;
+  color: #8a90a2;
+}
+
+.address, .contact, .email{
+flex:1;
+justify-content: center;
+border: 1px solid rgb(229, 226, 226);
+margin:3%;
+align-items: center;
+align-content: center;
+}
+
+.fixed i{
+  color: #754ef9;
+}
+
+.lower-part{
+  display: flex;
+  flex-direction: row;
+  margin: 3px;
+}
+
+div.input{
+  display: flex;
+  padding: 3%;
+  width: 50%;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+div.input input{
+  width: 92%;
+  padding: 2%;
+  margin-bottom:3%;
+}
+
+textarea{
+  width: 95%;
+  height: 200px;
+}
+
+  .lower-part img{
+width: 50%;
+}
+
 /*Footer section styling*/
 footer {
   background-color: rgb(22, 34, 53);
@@ -486,4 +561,23 @@ footer p {
   .plans {
     flex-direction: column;
   }
+
+  /*Contact section styling*/
+
+  .fixed{
+    flex-direction: column;
+  }
+  .lower-part{
+    flex-direction: column;
+  }
+  .lower-part label{
+    width: 100%;
+  }
+  div.input{
+    width: 100%;
+  }
+.lower-part img{
+  width: 100%;
+}
+
 }
