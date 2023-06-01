@@ -33,14 +33,21 @@ header ul {
   font-weight: 400;
 }
 
+header ul li:nth-child(6){
+ color: #754ef9;
+}
+
+header ul li:hover{
+  color: #754ef9;
+}
+
 /*Hero section styling*/
 
 section.home {
-  background-image: url(/images/banner/background.png);
+  background-image: url(/images/banner/background-mobile.png);
   background-color: #efeded;
   background-repeat: no-repeat;
   background-size: cover;
-  z-index: -1;
   display: flex;
   flex-direction: row;
   padding: 5%;
@@ -52,7 +59,7 @@ section.home {
   justify-content: space-between;
   margin: 0 auto;
   padding: 2%;
-  padding-left: 15%;
+  padding-left: 3%;
 }
 .right {
   display: flex;
@@ -87,6 +94,15 @@ section.home {
   display: none;
 }
 
+
+.home hr {
+  position: absolute;
+  background-color: #754ef9;
+  height: 3px;
+  width: 15%;
+  bottom:5%;
+  left: -40px;
+}
 .socials {
   color: #8a90a2;
   display: flex;
@@ -339,24 +355,25 @@ footer p {
   }
 
   .fa-bars {
+    position: absolute;
+    right: 7%;
     display: block;
     margin-left: auto;
-    padding: 4px;
+    padding: 15px;
+    width: 15px;
+  }
+  .home hr {
+    width: 19%;
+    bottom:-10%;
   }
 
   img.hero {
     display: none;
   }
-
+  .socials {
+    gap: 1px;
+  }
   /*About section mobile styling*/
-
-  .about {
-    text-align: center;
-  }
-
-  img.hero {
-    display: none;
-  }
 
   .about {
     text-align: center;
@@ -386,9 +403,9 @@ footer p {
     color: #754ef9;
     line-height: 2;
   }
-   /*My services section mobile styling*/
+  /*My services section mobile styling*/
 
-   .services {
+  .services {
     padding: 1rem;
     text-align: center;
   }
