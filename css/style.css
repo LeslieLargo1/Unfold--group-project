@@ -196,7 +196,6 @@ button {
 }
 
 /*Pricing section styling */
-
 .basic,
 .standard,
 .premium {
@@ -205,12 +204,17 @@ button {
   padding: 0;
   border-radius: 15px;
 }
-
 .pricing-plans {
   background-color: #fbfbfb;
   align-items: center;
   display: flex;
   flex-direction: column;
+  padding: 2%;
+}
+.plans{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
 }
 .plans span {
   display: flex;
@@ -432,5 +436,10 @@ footer p {
     padding: 1.3rem 0rem;
     margin: 3rem 3.5rem;
     text-align: center;
+  }
+  /*Pricing plans styling*/
+
+  .plans {
+    flex-direction: column;
   }
 }
