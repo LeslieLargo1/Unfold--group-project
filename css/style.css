@@ -385,7 +385,7 @@ footer p {
 
   .paragraph {
     color: gray;
-    padding-top: 0px;
+    padding: 0px 1rem 0 1rem ;
     word-spacing: 2px;
     line-height: 1.5;
   }
@@ -403,7 +403,33 @@ footer p {
     color: #754ef9;
     line-height: 2;
   }
-  /*My services section mobile styling*/
+  .about-progressBars {
+    margin-top: 2rem;
+  }
+
+  .about-progressBars p{
+    padding: 0;
+    color: black;
+  } 
+  .about-bars {
+    background-color: grey;
+  }
+
+  .about-progressBars progress {
+    width: 90%;
+    background-color: rgb(231, 228, 228);
+    border-radius: 1rem;
+    height: 0.4rem;
+  }
+  .right-float{
+    float: right;
+    padding-right: 1rem;
+  }
+  .left-float{
+    float: left;
+    padding-left: 1rem;
+  }
+   /*My services section mobile styling*/
 
   .services {
     padding: 1rem;
