@@ -13,12 +13,24 @@ body {
 
 header {
   display: flex;
+  justify-content: center;
   align-content: space-between;
-  justify-content: space-around;
   align-items: center;
   padding: 1.4rem;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  color: #8a90a2;
+  font-weight: 400;
 }
 
 /*Hero section styling*/
@@ -43,11 +55,38 @@ header {
   background-image: url(/images/banner/shape/shape-4a.png);
 }
 
+
+section.home {
+background-image: url(/images/banner/background.png);
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -1;
+display: flex;
+flex-direction: row;
+padding: 5%;
+
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding:2%;
+  padding-left: 15%;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  max-width: 450px;
+  margin: 0 auto;
+  padding-right: 10%;
+}
+
 .introduction {
   padding-left: 15px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: flex-start;
   font-weight: 700;
@@ -55,9 +94,11 @@ header {
 
 .introduction h2 {
   color: #754ef9;
+  font-weight: 700;
 }
 .introduction h1 {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: 700;
 }
 .introduction h5 {
   color: #8a90a2;
@@ -70,15 +111,15 @@ header {
 .socials {
   color: #8a90a2;
   display: flex;
-  margin-top: 13%;
-  padding: 16px;
-  gap: 10px;
+  margin-top: 20%;
+  gap: 10%;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
 }
 
 .socials span {
+  display:flex ;
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
@@ -102,6 +143,7 @@ button {
   font-weight: 700;
   box-shadow: 2px 2px 4px #941bb240;
 }
+
 
 /*Services section styling*/
 
@@ -146,6 +188,15 @@ button {
 
 /*Pricing section styling */
 
+.basic,
+.standard,
+.premium {
+  border: 1px solid #e5e2e2;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+}
+
 .pricing-plans {
   background-color: #fbfbfb;
   align-items: center;
@@ -159,7 +210,6 @@ button {
   justify-content: center;
   align-items: center;
   margin: 3%;
-  padding: 2px;
 }
 
 .pricing-plans p {
@@ -176,11 +226,18 @@ button {
 span.color {
   background-color: #754ef9;
   width: 100%;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px 15px 0 0;
 }
 .price {
   color: #754ef9;
   font-size: 1.5rem;
   font-weight: 900;
+}
+hr {
+  width: 100%;
+  color: #e5e2e2;
 }
 .pricing-plans ul {
   display: flex;
@@ -248,6 +305,16 @@ footer p {
 }
 
 @media only screen and (max-width: 360px) {
+  /*Header style for mobile*/
+  header {
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+  }
+  header ul {
+    display: none;
+  }
+
   /*Hero section mobile styling*/
   .left {
     padding-top: 7rem;
