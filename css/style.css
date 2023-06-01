@@ -56,9 +56,11 @@ header {
 .introduction h2 {
   color: #754ef9;
 }
+
 .introduction h1 {
   font-size: 2rem;
 }
+
 .introduction h5 {
   color: #8a90a2;
 }
@@ -120,9 +122,11 @@ button {
 .projects h2 {
   color: #efeded;
 }
+
 .projects p {
   color: #efeded;
 }
+
 .projects img {
   z-index: -1;
   filter: sepia(290%) hue-rotate(210deg) saturate(636%);
@@ -130,15 +134,18 @@ button {
   opacity: 0.7;
   position: absolute;
 }
+
 .projects button {
   width: 60%;
   margin: 3%;
   border: none;
 }
+
 .projects button.download {
   background-color: white;
   color: #754ef9;
 }
+
 .projects button.hire {
   background-color: transparent;
   border: 2px solid white;
@@ -152,6 +159,7 @@ button {
   display: flex;
   flex-direction: column;
 }
+
 .plans span {
   display: flex;
   flex-direction: column;
@@ -170,18 +178,22 @@ button {
   background-color: #754ef9;
   color: white;
 }
+
 .plans span p {
   color: #8a90a2;
 }
+
 span.color {
   background-color: #754ef9;
   width: 100%;
 }
+
 .price {
   color: #754ef9;
   font-size: 1.5rem;
   font-weight: 900;
 }
+
 .pricing-plans ul {
   display: flex;
   flex-direction: column;
@@ -189,19 +201,23 @@ span.color {
   margin: 28px;
   padding: 0;
 }
+
 .pricing-plans li {
   list-style: none;
   padding: 13px;
   font-weight: 500;
 }
+
 .pricing-plans button {
   border: 2px solid #754ef9;
   box-shadow: 2px 2px 4px #941bb240;
 }
+
 .pricing-plans button.white {
   background-color: white;
   color: #754ef9;
 }
+
 /*Footer section styling*/
 footer {
   background-color: rgb(22, 34, 53);
@@ -248,32 +264,28 @@ footer p {
 }
 
 @media only screen and (max-width: 360px) {
+
   /*Hero section mobile styling*/
   .left {
     padding-top: 7rem;
     padding-bottom: 2rem;
   }
+
   ul {
     display: none;
   }
+
   .fa-bars {
     display: block;
     margin-left: auto;
     padding: 4px;
   }
+
   img.hero {
     display: none;
   }
 
   /*About section mobile styling*/
-
-  .about {
-    text-align: center;
-  }
-
-  img.hero {
-    display: none;
-  }
 
   .about {
     text-align: center;
@@ -327,24 +339,22 @@ footer p {
     padding: 1rem;
   }
 
-  .recentworks h2 {
-    padding-left: 1rem;
-  }
-
   .recentworks-images {
     display: flex;
     flex-direction: column;
   }
+
   .recentworks-images img {
     margin-bottom: 1rem;
   }
+
   .recentworks-button {
     border: 1px solid #754ef9;
     background-color: #754ef9;
     color: white;
     border-radius: 2.5rem;
     box-shadow: 0 3px 5px 3px #cfc4f6;
-    padding: 1.3rem 0rem;
+    padding: 1rem 0rem;
     margin: 3rem 3.5rem;
     text-align: center;
   }
