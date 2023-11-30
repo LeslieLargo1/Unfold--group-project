@@ -150,6 +150,7 @@ section.about {
   width: 70%;
   margin: 0 auto;
 }
+
 .paragraph {
   color: gray;
   padding: 0px 1rem 0 1rem;
@@ -157,17 +158,17 @@ section.about {
   line-height: 1.5;
 }
 
- .paragraph {
-    color: gray;
-    padding: 0px 1rem 0 1rem;
-    word-spacing: 2px;
+.paragraph {
+  color: gray;
+  padding: 0px 1rem 0 1rem;
+  word-spacing: 2px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.bold{
+.bold {
   font-weight: 700;
 }
 
@@ -230,21 +231,25 @@ section.services {
   margin: 0 auto;
   padding: 3%;
 }
+
 .services-icons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
 }
+
 .services-icons .item {
   border: 1px solid #8a90a2;
   border-radius: 1rem;
   padding: 20px;
   text-align: center;
 }
+
 .services-icons i {
   color: #754ef9;
   font-size: 2.5rem;
 }
+
 .services-icons p.paragraph {
   color: #8a90a2;
   background-color: #fbfbfb;
@@ -263,22 +268,26 @@ section.recentworks {
   align-content: center;
   padding: 3%;
 }
+
 .services-icons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
 }
+
 .services-icons .item {
   border: 1px solid #8a90a2;
   border-radius: 5px;
   padding: 20px;
   text-align: center;
 }
+
 .services-icons i {
   color: #754ef9;
   font-size: 2.5rem;
 }
-.services-icons p.paragraph{
+
+.services-icons p.paragraph {
   color: #8a90a2;
   background-color: #fbfbfb;
 }
@@ -301,6 +310,7 @@ section.recentworks {
   margin: 5% 40%;
   text-align: center;
 }
+
 /*Projects section styling*/
 .projects {
   display: flex;
@@ -617,6 +627,7 @@ footer p {
   align-content: center;
   color: rgb(249, 249, 250);
   padding: 1rem;
+  font-family: "Linelcons", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .copyright {
@@ -624,6 +635,7 @@ footer p {
 }
 
 @media only screen and (max-width: 360px) {
+
   /*Header style for mobile*/
   header {
     justify-content: space-around;
@@ -674,29 +686,35 @@ footer p {
     flex-direction: column;
     justify-content: center;
   }
+
   section.about .columns {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 100%;
   }
+
   section.about .left-align {
     width: 100%;
   }
-  selection.about{
+
+  selection.about {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-section.about .columns{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-}
-section.about .left-align {
-  width: 100%;
-}
+
+  section.about .columns {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  section.about .left-align {
+    width: 100%;
+  }
+
   .about h4 {
     padding-left: 1rem;
   }
@@ -705,17 +723,22 @@ section.about .left-align {
     width: 100%;
     flex-direction: column;
   }
+
   .left-side-icons,
   .right-side-icons {
     width: 100%;
   }
-div.icons{
-  width: 100%;
-  flex-direction: column;
-}
-.left-side-icons, .right-side-icons{
-  width: 100%;
-}
+
+  div.icons {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .left-side-icons,
+  .right-side-icons {
+    width: 100%;
+  }
+
   .icons i {
     padding: 0px 15px;
     color: #754ef9;
@@ -748,7 +771,7 @@ div.icons{
   .services-icons {
     grid-template-columns: 1fr;
   }
- 
+
   /*Projects works section mobile styling*/
 
   .projects .buttons {
